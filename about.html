@@ -21,6 +21,10 @@
   
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 </head>
 <body>
  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -231,54 +235,11 @@
 </section>
 
 <!-- Map Section -->
-<section class="ftco-section testimony-section bg-light">
-  <div class="container">
-   <div class="row pb-4">
-     <div class="col-md-7 heading-section ftco-animate">
-      <span class="subheading">Key Achievements</span>
-      <h2 class="mb-4">Countries Covered - Classroom & Online:</h2>
-      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-      <div id="regions_div" style="width: 500px; height: 500px;"></div>
-     <script>
-         google.charts.load('current', {
-       'packages':['geochart'],
-     });
-     google.charts.setOnLoadCallback(drawRegionsMap);
-     
-     function drawRegionsMap() {
-      var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['Germany', 500],
-          ['United States', 500],
-          ['Brazil', 500],
-          ['Canada', 500],
-          ['France', 500],
-          ['RU', 500]
-        ]);
 
-        var options = {
-        	colorAxis: {colors: ['yellow', 'yellow']},
-          legend:'none',
-          // colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
-          backgroundColor: '#81d4fa',
-          datalessRegionColor: 'white',
-        };
-     
-       var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-     
-       chart.draw(data, options);
-     }
-     </script>
-    </div>
-    
-  </div>
- </div>
-
-</section>
 
 
 <section class="ftco-section testimony-section bg-light">
- <div class="overlay" style="background-image: url(images/pexels-christina-morillo-1181534.jpg);"></div>
+ <div class="overlay" style="background-image: url(images/Clients/client-banner.jpg); opacity: 0.5;"></div>
  <div class="container">
   <div class="row pb-4">
     <div class="col-md-7 heading-section ftco-animate">
@@ -292,85 +253,85 @@
     <div class="col-md-12">
       <div class="carousel-testimony owl-carousel">
         <div class="item">
-          <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+          <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
             <div class="text">
-            <img src="images/Clients/311px-Yodlee_logo.svg.png" style="padding-top: 22%;">
+            <img src="images/Clients/Yodlee.png" class="resized-image" style="padding-top: 22%;">
         </div>
       </div>
     </div>
     <div class="item">
-      <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+      <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
         <div class="text">
-          <img src="images/Clients/KPMG_logo.svg" style="padding-top: 8%;">
+          <img src="images/Clients/KPMG_logo.svg" class="resized-image" style="padding-top: 8%;">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/images.png">
+        <img src="images/Clients/Bank-of-America-Emblem.png" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/mars.png" style="padding-top: 8%;">
+        <img src="images/Clients/mars.png" class="resized-image" style="padding-top: 8%;">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/1200px-Mitsubishi-logo.png">
+        <img src="images/Clients/1200px-Mitsubishi-logo.png" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/shell.jpg">
+        <img src="images/Clients/Shell.png" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/png-transparent-wipro-logo-business-corporate-identity-business-text-service-people-thumbnail.png">
+        <img src="images/Clients/Wipro.png" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/aon.jpg">
+        <img src="images/Clients/aon.jpg" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/png-transparent-logo-ericsson-radio-systems-font-telecommunications-corprate-blue-text-logo-thumbnail.png">
+        <img src="images/Clients/Ericsson-logo.png" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/471-4710634_ust-global-png-download-ust-global-logo-png.png">
+        <img src="images/Clients/ust-global.png" class="resized-image">
       </div>
     </div>
   </div>
   <div class="item">
-    <div class="testimony-wrap py-4" style="width: 293px;height: 196px;">
+    <div class="testimony-wrap  py-4" style="width: 293px;height: 196px;">
       <div class="text">
-        <img src="images/Clients/uaeexchange.jpeg">
+        <img src="images/Clients/uae_exchange.png" >
       </div>
     </div>
   </div>
 
 <!-- <div class="item">
-  <div class="testimony-wrap py-4">
+  <div class="testimony-wrap  py-4">
     <div class="text">
      <p class="star">
       <span class="fa fa-star"></span>
@@ -391,7 +352,7 @@
 </div>
 </div> -->
 <!-- <div class="item">
-  <div class="testimony-wrap py-4">
+  <div class="testimony-wrap  py-4">
     <div class="text">
      <p class="star">
       <span class="fa fa-star"></span>
@@ -412,7 +373,7 @@
 </div>
 </div> -->
 <!-- <div class="item">
-  <div class="testimony-wrap py-4">
+  <div class="testimony-wrap  py-4">
     <div class="text">
      <p class="star">
       <span class="fa fa-star"></span>
@@ -514,7 +475,54 @@
 </div>
 </div>
 </section> -->
+<!-- <section class="ftco-section testimony-section bg-light">
+  <div class="container">
+   <div class="row pb-4">
+     <div class="col-md-7 heading-section ftco-animate">
+      <span class="subheading">Key Achievements</span>
+      <h2 class="mb-4">Countries Covered - Classroom & Online:</h2>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <div id="regions_div" style="width: 500px; height: 500px;"></div>
+     <script>
+         google.charts.load('current', {
+       'packages':['geochart'],
+     });
+     google.charts.setOnLoadCallback(drawRegionsMap);
+     
+     function drawRegionsMap() {
+      var data = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['Germany', 500],
+          ['United States', 500],
+          ['Brazil', 500],
+          ['Canada', 500],
+          ['France', 500],
+          ['RU', 500]
+        ]);
 
+        var options = {
+        	colorAxis: {colors: ['yellow', 'yellow']},
+          legend:'none',
+          // colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
+          backgroundColor: '#81d4fa',
+          datalessRegionColor: 'white',
+        };
+     
+       var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+     
+       chart.draw(data, options);
+     }
+     </script>
+    </div>
+    
+  </div>
+ </div>
+
+</section> -->
+<section>
+  <div id="chartdiv" class="ftco-section testimony-section bg-light container"></div>
+
+</section>
 <footer class="ftco-footer ftco-no-pt">
   <div class="container">
     <div class="row mb-5">
@@ -596,9 +604,10 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/bootstrap-datepicker.js"></script>
-<script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="js/google-map.js"></script>
+<script src="js/scrollax.min.js"></script>\
+<script src="js/map.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+<!-- <script src="js/google-map.js"></script> -->
 <script src="js/main.js"></script>
 
 </body>
