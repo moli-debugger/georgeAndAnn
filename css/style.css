@@ -11646,7 +11646,7 @@ h5,
   bottom: 0;
   content: "";
   background: #000000;
-  opacity: 0.3;
+  opacity: 0.1;
   z-index: -1;
   border-radius: 50%;
 }
