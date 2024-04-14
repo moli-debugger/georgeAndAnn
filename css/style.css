@@ -13727,3 +13727,7 @@ input[type="email"]:focus {
 html {
   scroll-behavior: smooth;
 }
+
+.add-icon{
+  display: contents !important;
+}
