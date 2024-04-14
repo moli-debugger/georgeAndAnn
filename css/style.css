@@ -11056,7 +11056,7 @@ h5,
     padding-bottom: 0;
     padding-top: 0.3rem !important;
     padding-bottom: 0.3rem !important;
-    color: #fff;
+    color: #4f4646;
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -11127,7 +11127,7 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #4f4646 !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -11202,7 +11202,7 @@ h5,
 .ftco-navbar-light.scrolled .nav-link {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
-  color: #000000 !important;
+  color: #4f4646 !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active {
   color: #4986fc !important;
@@ -12109,8 +12109,7 @@ textarea.form-control {
 }
 .staff-2 .text .position {
   text-transform: uppercase;
-  color: #b3b3b3;
-  color: #4986fc;
+  color: #000000;
   display: block;
   letter-spacing: 2px;
   font-size: 12px;
@@ -12128,7 +12127,7 @@ textarea.form-control {
   transition: all 0.3s ease;
 }
 .staff-2 .ftco-social li a {
-  color: #4986fc;
+  color: #000000;
 }
 
 .staff-detail h3 {
@@ -12695,6 +12694,7 @@ textarea.form-control {
 .blog-entry {
   width: 100%;
   margin-bottom: 40px;
+  box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
 }
 @media (max-width: 767.98px) {
   .blog-entry {
@@ -12738,6 +12738,18 @@ textarea.form-control {
 }
 .blog-entry .meta p a:hover {
   color: black;
+}
+
+.blog-entry:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.blog-entry:hover .btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
 .block-23 ul {
@@ -13261,7 +13273,6 @@ textarea.form-control {
   height: 600px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Tilt+Neon&display=swap");
 
 @property --gradient-angle {
   syntax: "<angle>";
@@ -13269,16 +13280,7 @@ textarea.form-control {
   inherits: false;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-}
 
-html {
-  scroll-behavior: smooth;
-}
 
 img {
   width: 100%;
@@ -13717,7 +13719,11 @@ input[type="email"]:focus {
 .semicircle {
   width: 200px; /* adjust as needed */
   height: 100px; /* half of the width to create a semi-circle */
-  background-color: #f5f5f5; /* adjust color as needed */
+  background-color: #fff; /* adjust color as needed */
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
