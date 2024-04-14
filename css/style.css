@@ -13382,7 +13382,7 @@ input[type="email"]:focus {
   gap: 20px;
 }
 
-.item {
+.bubble {
   max-width: 200px;
   aspect-ratio: 1/1;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5),
@@ -13392,62 +13392,62 @@ input[type="email"]:focus {
   opacity: 0;
 }
 
-.item:nth-child(1) {
+.bubble:nth-child(1) {
   background-color: #72A542;
   border-radius: 50% 50% 0 50%;
 }
 
-.item:nth-child(2) {
+.bubble:nth-child(2) {
   border-radius: 50% 50% 0 0;
   background-color: #2E5A5B;
 
 }
 
-.item:nth-child(3) {
+.bubble:nth-child(3) {
   background-color: #5695C8;
   border-radius: 0 0 0 50%;
 
 }
 
-.item:nth-child(4) {
+.bubble:nth-child(4) {
   background-color: #8071a8;
   border-radius: 0 50% 50% 50%;
 
 }
 
-.item:nth-child(5) {
+.bubble:nth-child(5) {
   border-radius: 0 50% 50% 0;
 }
 
-.item:nth-child(6) {
+.bubble:nth-child(6) {
   background-color: #8071a8;
   border-radius: 0 50% 50% 50%;
 }
 
-.item:nth-child(7) {
+.bubble:nth-child(7) {
   border-radius: 50% 50% 0 50%;
 }
 
-.item:nth-child(8) {
+.bubble:nth-child(8) {
   background-color: #fe7519;
   border-radius: 50% 0 0 50%;
 }
 
-.item:nth-child(9) {
+.bubble:nth-child(9) {
   background-color: #f5bec3;
   border-radius: 0 50% 50% 0;
 }
 
-.item:nth-child(10) {
+.bubble:nth-child(10) {
   border-radius: 50%;
 }
 
-.item:nth-child(11) {
+.bubble:nth-child(11) {
   background-color: #fcd659;
   border-radius: 50% 0 50% 50%;
 }
 
-.item:nth-child(12) {
+.bubble:nth-child(12) {
   border-radius: 50% 0 0 0;
 }
 
