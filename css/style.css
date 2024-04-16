@@ -10999,7 +10999,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #f7f4f4 !important;
+    background: #ffffff !important;
     position: relative;
     top: 0;
     padding-top: 0;
@@ -11127,7 +11127,7 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: #4f4646 !important;
+  color: #2dc5c9 !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -11159,11 +11159,11 @@ h5,
   }
 }
 .ftco-navbar-light.scrolled .nav-item.active > a {
-  color: #4986fc !important;
+  color: #2dc5c9 !important;
 }
 .ftco-navbar-light.scrolled .nav-item.cta > a {
   color: #fff !important;
-  background: #4986fc;
+  background: #2dc5c9;
   border: none !important;
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
@@ -11180,7 +11180,7 @@ h5,
   color: #fff !important;
 }
 .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-  border-color: #4986fc;
+  border-color: #2dc5c9;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light.scrolled .navbar-nav {
@@ -12097,6 +12097,7 @@ textarea.form-control {
 .staff-2 .text h3 {
   font-size: 22px;
   font-weight: 600;
+  text-align: center;
   margin-bottom: 0;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -12114,11 +12115,13 @@ textarea.form-control {
   letter-spacing: 2px;
   font-size: 12px;
   font-weight: 600;
+  text-align: center;
 }
 .staff-2 .text .faded {
   opacity: 1;
 }
 .staff-2 .ftco-social {
+  text-align: center;
   margin-bottom: 0;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -12677,6 +12680,7 @@ textarea.form-control {
 @media (max-width: 767.98px) {
   .ftco-counter .counter-wrap {
     margin-bottom: 20px;
+    margin-left: 50px;
   }
 }
 
@@ -13722,6 +13726,7 @@ input[type="email"]:focus {
   background-color: #fff; /* adjust color as needed */
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
+  padding: 14px;
 }
 
 html {
