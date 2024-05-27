@@ -24,8 +24,9 @@ polygonTemplate.fill = am4core.color("#C4DFDF");
 // Add zoom control
 
 chart.seriesContainer.draggable = false;
-chart.seriesContainer.resizable = false;
+// chart.seriesContainer.resizable = false;
 chart.maxZoomLevel = 1;
+// chart.chartContainer.wheelable = true;
 
 // Set up data for the countries
 polygonSeries.data = [
