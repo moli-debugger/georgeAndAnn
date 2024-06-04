@@ -11259,7 +11259,7 @@ h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 17% center;
   background-attachment: fixed;
 }
 .hero-wrap .overlay {
@@ -11269,7 +11269,7 @@ h5,
   right: 0;
   bottom: 0;
   content: "";
-  opacity: 0.5;
+  opacity: 0.8;
   background: rgba(32, 124, 229, 0);
   background: -moz-linear-gradient(
     45deg,
@@ -12084,7 +12084,7 @@ textarea.form-control {
 }
 .staff-2 .text {
   position: relative;
-  padding: 20px;
+  padding: 9px 18px;
   background: rgba(255, 255, 255, 0.4);
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
